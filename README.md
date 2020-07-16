@@ -30,19 +30,19 @@ There is one notebook that was developed according to the following steps:
 
 * Load and Clean Dataset, checking for invalid or missing data - for example, records without userids or sessionids.
 * EDA, create a column Churn to use as the label for your model, and perform some exploratory data analysis to observe the behavior for users who stayed vs users who churned
-* Feature Engineering, build out the features you find promising to train your model on
+* Feature Engineering, build out the features you find promising to train your model on.
 * Modeling, split the full dataset into train, test, and validation sets. Test out several of the machine learning methods, and evaluate the accuracy of the various models, tuning parameters as necessary.
 
 ## Results<a name="results"></a>
 
 As was mentioned before, for this project were considerd two ML models: Logistic Regression and Random Forest.
 * Logistic Regression:
-Accuracy: 77.14%
+Accuracy: 82.86%
 'f1_score': 0.42857142857142855, 'precision': 0.375, 'recall': 0.5
 
 * Random Forest:
 Accuracy: 77.14%
-'f1_score': 0.42857142857142855, 'precision': 0.375, 'recall': 0.5
+'f1_score': 0.53846153846153844, 'precision': 0.5, 'recall': 0.58333333333333337
 
 Taking account the results of both Logistic Regression and Random Forest, it seems that Random Forest is the best model for this project. 
 
