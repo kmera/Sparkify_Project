@@ -18,6 +18,8 @@ The libaries needed to run the code, using Python version 3.* are:
 
 ## Project Motivation<a name="motivation"></a>
 
+![sparkify1](https://user-images.githubusercontent.com/45834444/87700587-2c28a000-c75c-11ea-9dc5-37dd65990872.png)
+
 Using Sparkify tiny subset (128MB) of the full dataset available (12GB), the goal is to predict customer churn. Sparkify is a music stream app which has free users (includes advertising) and paid users who have to paid a monthly rate. Besides, users can downgrade, upgrade or cancel the service anytime.  
 
 There are many reasons a user would churn such as: infeffective recommendations which are not aligned with the genres user preferences, songs they want to listen but are not available in sparkify, complex or useless app UI/UX, cost of the service, and so on, so the feature engineering will support us to consider some of this reasons. I have considered this problem as a binary classification (churn / not churn), so I will use Logistic and Random Forest models to fit the data and predict churn.
