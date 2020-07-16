@@ -37,11 +37,13 @@ There is one notebook that was developed according to the following steps:
 
 As was mentioned before, for this project were considerd two ML models: Logistic Regression and Random Forest.
 * Logistic Regression:
+
   Accuracy: 82.86%
 
   'f1_score': 0.42857142857142855, 'precision': 0.375, 'recall': 0.5
 
 * Random Forest:
+
   Accuracy: 77.14%
 
   'f1_score': 0.53846153846153844, 'precision': 0.5, 'recall': 0.58333333333333337
