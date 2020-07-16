@@ -33,7 +33,18 @@ There is one notebook that was developed according to the following steps:
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://medium.com/@klever.mera/thinking-to-travel-to-boston-after-the-lockdown-f84a99ec728e).
+As was mentioned before, for this project were considerd two ML models: Logistic Regression and Random Forest.
+* Logistic Regression:
+Accuracy: 77.14%
+'f1_score': 0.42857142857142855, 'precision': 0.375, 'recall': 0.5
+
+* Random Forest:
+Accuracy: 77.14%
+'f1_score': 0.42857142857142855, 'precision': 0.375, 'recall': 0.5
+
+Taking account the results of both Logistic Regression and Random Forest, it seems that 
+
+Moreover, the main findings of the code can be found at the medium post available [here](https://medium.com/@klever.mera/thinking-to-travel-to-boston-after-the-lockdown-f84a99ec728e).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
