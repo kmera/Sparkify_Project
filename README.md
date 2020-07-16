@@ -18,7 +18,7 @@ The libaries needed to run the code, using Python version 3.* are:
 
 ## Project Motivation<a name="motivation"></a>
 
-Using Sparkify tiny subset (128MB) of the full dataset available (12GB), the goal is to predict customer churn. Sparkify is a music stream app which has free users (includes avertising) and paid users that have to paid a monthly rate. Besides, users can downgrade, upgrade or cancel the service anytime.  
+Using Sparkify tiny subset (128MB) of the full dataset available (12GB), the goal is to predict customer churn. Sparkify is a music stream app which has free users (includes advertising) and paid users who have to paid a monthly rate. Besides, users can downgrade, upgrade or cancel the service anytime.  
 
 There are many reasons a user would churn such as: infeffective recommendations which are not aligned with the genres user preferences, songs they want to listen but are not available in sparkify, complex or useless app UI/UX, cost of the service, and so on, so the feature engineering will support us to consider some of this reasons. I have considered this problem as a binary classification (churn / not churn), so I will use Logistic and Random Forest models to fit the data and predict churn.
 
@@ -42,9 +42,9 @@ Accuracy: 77.14%
 Accuracy: 77.14%
 'f1_score': 0.42857142857142855, 'precision': 0.375, 'recall': 0.5
 
-Taking account the results of both Logistic Regression and Random Forest, it seems that 
+Taking account the results of both Logistic Regression and Random Forest, it seems that Random Forest is the best model for this project. 
 
-Moreover, the main findings of the code can be found at the medium post available [here](https://medium.com/@klever.mera/thinking-to-travel-to-boston-after-the-lockdown-f84a99ec728e).
+Moreover, the main findings of the code can be found at the medium post [Predicting Churn Rate for 'Sparkify' stream music app](https://medium.com/@klever.mera/thinking-to-travel-to-boston-after-the-lockdown-f84a99ec728e).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
