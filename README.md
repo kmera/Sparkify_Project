@@ -44,7 +44,7 @@ As was mentioned before, for this project were considerd two ML models: Logistic
 
   'f1_score': 0.5, 'precision': 0.5, 'recall': 0.5, 'AUC': 0.69827586206896552
 
-Taking account the results of both Logistic Regression and Random Forest, it seems that Random Forest is the best model for this project because it has a better performance. 
+Taking account the results of both Logistic Regression and Random Forest, it seems that Random Forest is the best model for this project because it has a better performance.
 
 Moreover, the main findings of the code can be found at the medium post [Predicting Churn Rate for 'Sparkify' stream music app](https://medium.com/@klever.mera/predicting-churn-rate-for-sparkify-stream-music-app-1697e5920151).
 
